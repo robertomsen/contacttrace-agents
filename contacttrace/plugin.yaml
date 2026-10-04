@@ -1,0 +1,6 @@
+name: contacttrace
+version: 0.1.1
+description: "Contact tracing for agent skills: records which sources influenced every agent-written skill, inherits trust through that lineage, and quarantines every descendant of a poisoned source."
+author: "ROBERTO MONGE SENCADES - ROBERTOMSEN"
+provides_hooks:
+  - post_tool_call
